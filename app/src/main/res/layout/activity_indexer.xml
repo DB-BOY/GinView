@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+              xmlns:gin="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <com.gin.ginview.remaindIndexer.widget.RemaindIndexer
+        android:layout_width="match_parent"
+        android:id="@+id/remaindIndexer"
+        
+        android:layout_height="match_parent"
+
+        gin:widthOffset="15dip"
+        gin:minFontSize="32"
+        gin:maxFontSize="60"
+        gin:tipFontSize="72"
+        gin:maxBezierHeight="150dip"
+        gin:maxBezierWidth="180dip"
+        gin:additionalTipOffset="40dip"
+        gin:fontColor="#ffa0a0a0"
+
+
+    />
+</LinearLayout>
